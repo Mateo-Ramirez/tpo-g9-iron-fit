@@ -1,0 +1,221 @@
+:root {
+	--white: #ffffff;
+	--gray: #E3E3E3;
+	--arsenic: #484D52;
+	--ligth-gray: #F2F2F2;
+	--black: #000000;
+    --prussian-blue: #163351;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	color: var(--arsenic);
+}
+
+section[id]{
+	scroll-margin-top: 80px;
+}
+
+/* ---------- HEADER ---------- */
+nav {
+	background: var(--white);
+	height: 80px;
+	width: 100%;
+	position: fixed;
+}
+
+.enlace {
+	position: absolute;
+	padding: 20px 50px;
+}
+
+.logo {
+	height: 50px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: var(--black);
+	font-size: 18px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+li a:hover {
+	background: var(--ligth-gray);
+	transition: .5s;
+}
+
+.checkbtn {
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+/* ---------- MAIN ---------- */
+#servicios,
+#horarios,
+#precios,
+#contacto {
+	padding-block: 30px;
+    padding-inline: 20px;
+}
+
+#inicio {
+	padding-top: 110px;
+	padding-inline: 20px;
+	padding-bottom: 30px;
+	background-color: var(--ligth-gray);
+}
+
+#horarios {
+	background-color: var(--ligth-gray);
+}
+
+#precios {
+	text-align: center;
+}
+
+.contenedor-planes {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.plan-mensual,
+.plan-anual {
+    width: 25%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background: var(--prussian-blue);
+    color: var(--white);
+    border-radius: 5px;      
+}
+
+.plan-mensual:hover,
+.plan-anual:hover {
+    box-shadow: 6px 7px var(--gray);
+    /* horizontal y vertical*/
+}
+
+.descuento {
+    color: red;
+}
+
+.precio {
+    font-size: 30px;
+}
+
+sup {
+    font-size: 20px;
+}
+
+/* ---------- Contacto ---------- */
+#contacto {
+	background-color: var(--black);
+}
+
+.contacto {
+	background: #F2F2F2;
+	/*arsenic*/
+	margin: 10px;
+	padding: 20px;
+	border-radius: 7px;
+}
+
+input,
+textarea,
+button {
+	background-color: white;
+	width: 100%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+input{
+	padding: 20px;
+}
+
+textarea {
+	min-height: 80px;
+	max-height: 200px;
+	max-width: 100%;
+	padding: 20px;
+	border: 2px solid var(--black);
+}
+
+.bottom {
+	background: #D7D7D7;
+	padding: 20px;
+}
+
+.text-contact {
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.bottom:hover {
+	background-color: var(--gray);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+	background-color: var(--arsenic);
+	color: var(--white);
+    text-align: center;
+    padding-block: 20px;
+}
+
+footer ul li{
+    display: inline-flex;
+}
+
+footer ul li a:hover{
+    background: none;
+}
+
+footer ul li a i{
+	font-size: 20px;
+}
+
+footer ul li a i:hover{
+	font-size: 25px;
+}
