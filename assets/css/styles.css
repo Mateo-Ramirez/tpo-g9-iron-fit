@@ -22,7 +22,6 @@ html{
 body{
     text-align: justify;
 	font-family: 'Roboto', sans-serif;
-	color: var(--arsenic);
 }
 
 section[id]{
@@ -109,39 +108,32 @@ li a:hover {
 }
 
 .contenedor-planes {
-    display: flex;
-    justify-content: space-evenly;
-    
+	display: flex;
+	justify-content: space-between;
 }
 
 .plan-mensual,
 .plan-anual {
-    width: 25%;
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    margin: 10px;
-    background: var(--prussian-blue);
-    color: var(--white);
-    border-radius: 5px;      
-}
-
-.plan-mensual:hover,
-.plan-anual:hover {
-    box-shadow: 6px 7px var(--gray);
-    /* horizontal y vertical*/
+	width: 45%;
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	background: var(--prussian-blue);
+	color: var(--white);
+	border-radius: 5px;
 }
 
 .descuento {
-    color: red;
+	color: red;
 }
 
 .precio {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 sup {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 /* ---------- Contacto ---------- */
@@ -208,14 +200,6 @@ footer ul li{
     display: inline-flex;
 }
 
-footer ul li a:hover{
+Footer ul li a:hover{
     background: none;
-}
-
-footer ul li a i{
-	font-size: 20px;
-}
-
-footer ul li a i:hover{
-	font-size: 25px;
 }
