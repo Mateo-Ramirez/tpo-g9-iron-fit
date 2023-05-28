@@ -10,7 +10,6 @@
 }
 
 @media (max-width: 700px) {
-	
 /* ---------- NAV ---------- */
 	.checkbtn {
 		display: block;
@@ -40,13 +39,6 @@
 	}
 	#check:checked ~ ul {
 		left: 0;
-	}
-
-/* ---------- MAIN ---------- */
-
-	.plan-mensual,
-	.plan-anual{
-		width: 45%;
 	}
 
 /* ---------- FOOTER ---------- */
