@@ -34,6 +34,8 @@ nav {
 	height: 80px;
 	width: 100%;
 	position: fixed;
+	z-index: 1;
+	
 }
 
 .enlace {
@@ -83,6 +85,33 @@ li a:hover {
 	display: none;
 }
 
+
+.img_gim {
+	width: 100%;
+	margin-top: -300px;
+}
+
+.intro {
+	position:relative;
+	margin-top: -65vh;
+	margin-left: 145vh;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+.intro h1 {
+	font-size: 16vh;
+	color: #e9e9e9;
+	text-shadow: 10px 15px 20px black;
+}
+
+.intro h2 {
+	font-size: 5vh;
+	color: #e9e9e9;
+	text-shadow: 10px 10px 10px black;
+}
+
+
 /* ---------- MAIN ---------- */
 #servicios,
 #horarios,
@@ -99,12 +128,65 @@ li a:hover {
 	background-color: var(--ligth-gray);
 }
 
-#horarios {
-	background-color: var(--ligth-gray);
+#inicio h2 {
+	font-size: 7vh;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.local {
+	gap: 2vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.local img {
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	width: 600px;
+	height: 400px;
+}
+
+
+
+
+#servicios h2 {
+	font-size: 4vh;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.servicios_img {
+	gap: 2vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.servicios_img img {
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	width: 600px;
+	height: 400px;
+}
+
+
+
+#horarios h2{
+	font-size: 4vh;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #precios {
 	text-align: center;
+}
+
+#precios > h2:first-child {
+	font-size: 4vh;
+	margin-bottom: 20px;
 }
 
 .contenedor-planes {

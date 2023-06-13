@@ -12,6 +12,7 @@ const errores = document.getElementById("errors");
     let ok = false
     let error= ""
     errors.innerHTML= ""
+    
 
       if(nombre.value.length <4){
         error += 'Debe ingresar nombre completo<br>';
@@ -47,6 +48,7 @@ const errores = document.getElementById("errors");
        if(!ok){
         document.getElementById("form_error").style.display = "none";
         document.getElementById("form_msj").style.display= "block";
+        form_msj_user.innerHTML = 'Gracias por tu comentario, ' + nombre.value;
       } 
        
 

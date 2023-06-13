@@ -41,8 +41,13 @@
 		left: 0;
 	}
 
+	.img_gim {
+		margin-top: -50px;
+		height: 60vh;
+	}
+}
+
 /* ---------- FOOTER ---------- */
 footer ul li i{
     display: inline-flex;
-}
 }
