@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script async src="/assets/JS/script.js"></script>
 </head>
 
 <body>
@@ -128,12 +129,18 @@
                     <h2>CONTACTO</h2>
                     <p>Contáctese con nosotros y le responderemos a la brevedad.</p>
                 </div>
-                <form method="POST">
-                    <input type="text" name="nombre" id="name" size="30" required placeholder="Nombre">
-                    <input type="email" name="correo" id="correo" size="30" required placeholder="Correo Electronico">
-                    <textarea name="comentario" cols="30" rows="5" required
+                <form id="form" method="POST">
+                    <input type="text" name="nombre" id="name"  placeholder="Nombre Completo">
+                    <input type="email" name="correo" id="correo" size="30"  placeholder="Correo Electronico">
+                    <textarea name="comentario" id="comentario" cols="30" rows="5" 
                         placeholder="Ingrese aquí su comentario"></textarea>
                     <input type="submit" value="Enviar" class="bottom">
+                    <div id="form_msj" class="form_msj">
+                        <p id="form_msj_user"> </p>
+                    </div>
+                    <div id="form_error" class="form_error">
+                        <p id="errors"> </p>
+                    </div>
                 </form>
             </div>
         </section>

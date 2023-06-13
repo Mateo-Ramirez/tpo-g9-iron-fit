@@ -84,6 +84,11 @@ li a:hover {
 }
 
 /* ---------- MAIN ---------- */
+
+main p {
+	font-size: 1.7vh;
+}
+
 #servicios,
 #horarios,
 #precios,
@@ -99,9 +104,31 @@ li a:hover {
 	background-color: var(--ligth-gray);
 }
 
+
+#inicio h2 {
+	font-size: 10vh;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+#servicios h2:first-child {
+	text-align: center;
+	font-size: 3vh;
+	margin-bottom: 2vh;
+}
+
+
 #horarios {
 	background-color: var(--ligth-gray);
 }
+
+#horarios h2{
+	text-align: center;
+	font-size: 3vh;
+	margin-bottom: 2vh;
+}
+
+
 
 .servicios {
 	display: flex;
@@ -159,9 +186,12 @@ li a:hover {
 	width: 60%;
 	height: 45vh;
   }
-  
+
+
+
   .titulo-servicio {
 	width: 40%;
+	margin-top: 18vh;
 	text-align: center;
 	font-size: 50px;
 	color: white;
@@ -176,6 +206,12 @@ li a:hover {
 #precios {
 	text-align: center;
 }
+
+#precios>h2:first-child {
+	font-size: 3vh;
+	margin-bottom: 2vh;
+}
+
 
 .contenedor-planes {
 	display: flex;
@@ -256,6 +292,37 @@ p {
 
 .bottom:hover {
 	background-color: var(--gray);
+}
+
+
+
+.form_msj {
+	text-align: center;
+	background-color: green;
+	border: 2px solid var(--black);
+	display: none;
+}
+
+.form_msj p {
+	color: var(--white);
+	font-size: 2.3vh;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
+}
+
+
+.form_error{
+	text-align: center;
+	background-color: rgb(219, 0, 0);
+	border: 2px solid var(--black);
+	display: none;
+}
+
+.form_error p {
+	color: var(--white);
+	font-size: 2.3vh;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 20px;
 }
 
 /* ---------- FOOTER ---------- */

@@ -117,10 +117,22 @@
 		  align-items: center;
 		  font-size: 1.5em;
 		}
+
+		#inicio h2 {
+			font-size: 5vh;
+		}
+
+
+
+
 	  }
+
+
 	  
 /* ---------- FOOTER ---------- */
 footer ul li i{
     display: inline-flex;
 }
 }
+
+
