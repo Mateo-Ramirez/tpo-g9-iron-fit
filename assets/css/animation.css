@@ -16,7 +16,7 @@
 * animation color-change-3x
 * ----------------------------------------
 */
-/* @keyframes color-change-3x {
+@keyframes color-change-3x {
     0% {
         background: #19dcea;
     }
@@ -26,87 +26,5 @@
     100% {
         background: #ea2222;
     }
-} */
-
-@keyframes entrada {
-
-  
-  50% {
-    transform: translateX(200vh);
-  }
- 
-  100% {
-    transform: translateX(0px);
-  }
-  
 }
 
-.intro {
-  animation: entrada 2s ease-out  1;
-}
-
-
-
-
-@keyframes temblar {
-    0%, 10% {
-      transform: rotateZ(0);
-    }
-    15% {
-      transform: rotateZ(-1deg);
-    }
-    20% {
-      transform: rotateZ(1deg);
-    }
-    25% {
-      transform: rotateZ(-1deg);
-    }
-    30% {
-      transform: rotateZ(1deg);
-    }
-    35% {
-      transform: rotateZ(-1deg);
-    }
-    40%, 100% {
-      transform: rotateZ(0);
-    }
-}
-
-
-
-.plan-mensual:hover {
-    animation: temblar 4s linear infinite;
-}
-
-.plan-anual:hover {
-    animation: temblar 4s linear infinite;
-}
-
-
-@keyframes shake {
-    0%, 10% {
-      transform: rotateZ(0);
-    }
-    15% {
-      transform: translateX(10px);
-    }
-    20% {
-      transform: translateX(10px);
-    }
-    25% {
-      transform: translateX(-10px);
-    }
-    30% {
-      transform: translateX(10px);
-    }
-    35% {
-      transform: translateX(-10px);
-    }
-    40%, 100% {
-      transform: translateX(0);
-    }
-}
-
-.form_error{
-    animation: shake 4s linear infinite;
-}

@@ -34,8 +34,6 @@ nav {
 	height: 80px;
 	width: 100%;
 	position: fixed;
-	z-index: 1;
-	
 }
 
 .enlace {
@@ -85,33 +83,6 @@ li a:hover {
 	display: none;
 }
 
-
-.img_gim {
-	width: 100%;
-	margin-top: -300px;
-}
-
-.intro {
-	position:relative;
-	margin-top: -65vh;
-	margin-left: 145vh;
-	text-align: center;
-	margin-bottom: 200px;
-}
-
-.intro h1 {
-	font-size: 16vh;
-	color: #e9e9e9;
-	text-shadow: 10px 15px 20px black;
-}
-
-.intro h2 {
-	font-size: 5vh;
-	color: #e9e9e9;
-	text-shadow: 10px 10px 10px black;
-}
-
-
 /* ---------- MAIN ---------- */
 #servicios,
 #horarios,
@@ -128,65 +99,82 @@ li a:hover {
 	background-color: var(--ligth-gray);
 }
 
-#inicio h2 {
-	font-size: 7vh;
-	text-align: center;
-	margin-bottom: 20px;
+#horarios {
+	background-color: var(--ligth-gray);
 }
 
-
-.local {
-	gap: 2vh;
+.servicios {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.local img {
-	border-bottom-right-radius: 30px;
-	border-top-left-radius: 30px;
-	width: 600px;
-	height: 400px;
-}
-
-
-
-
-#servicios h2 {
-	font-size: 4vh;
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.servicios_img {
-	gap: 2vh;
+	flex-direction: column;
+  }
+  
+  .servicio1 {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.servicios_img img {
-	border-bottom-right-radius: 30px;
-	border-top-left-radius: 30px;
-	width: 600px;
-	height: 400px;
-}
-
-
-
-#horarios h2{
-	font-size: 4vh;
-	text-align: center;
+	justify-content: space-between;
+	background: #163351;
 	margin-bottom: 20px;
-}
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .servicio3 {
+	display: flex;
+	justify-content: space-between;
+	background: #163351;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .servicio4 {
+	display: flex;
+	justify-content: space-between;
+	background: #163351;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .servicio5 {
+	display: flex;
+	justify-content: space-between;
+	background: #163351;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .servicio6 {
+	display: flex;
+	justify-content: space-between;
+	background: #163351;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .servicio8 {
+	display: flex;
+	justify-content: space-between;
+	background: #163351;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  .imagen {
+	width: 60%;
+	height: 45vh;
+  }
+  
+  .titulo-servicio {
+	width: 40%;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+  }
+  
+  .servicio2,
+  .servicio7 {
+	display: none;
+  }
 
+  
 #precios {
 	text-align: center;
-}
-
-#precios > h2:first-child {
-	font-size: 4vh;
-	margin-bottom: 20px;
 }
 
 .contenedor-planes {
@@ -269,38 +257,6 @@ p {
 .bottom:hover {
 	background-color: var(--gray);
 }
-
-
-.form_msj {
-	text-align: center;
-	background-color: green;
-	border: 2px solid var(--black);
-	display: none;
-}
-
-.form_msj p {
-	color: var(--white);
-	font-size: 2.3vh;
-	text-shadow: 2px 2px 2px black;
-	padding-top: 20px;
-}
-
-
-.form_error{
-	text-align: center;
-	background-color: rgb(219, 0, 0);
-	border: 2px solid var(--black);
-	display: none;
-}
-
-.form_error p {
-	color: var(--white);
-	font-size: 2.3vh;
-	text-shadow: 2px 2px 2px black;
-	padding-top: 20px;
-}
-
-
 
 /* ---------- FOOTER ---------- */
 footer {

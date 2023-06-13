@@ -41,13 +41,86 @@
 		left: 0;
 	}
 
-	.img_gim {
-		margin-top: -50px;
-		height: 60vh;
-	}
-}
-
+	@media (max-width: 700px) {
+		.servicios {
+		  display: grid;
+		  grid-template-columns: repeat(12, 1fr);
+		  grid-template-rows: repeat(2, 1fr);
+		  grid-column-gap: 10px;
+		  grid-row-gap: 1px;
+		}
+	  
+		.servicio1 {
+		  grid-area: 1 / 1 / 7 / 7;
+		  background-image: url("/assets/images/asesoramiento-nutricional.jpeg");
+		  background-size: cover;
+		  height: 25vh;
+		  width: 100%;
+		}
+	  
+		.servicio2 {
+		  grid-area: 1 / 7 / 4 / 13;
+		}
+	  
+		.servicio3 {
+		  grid-area: 7 / 1 / 13 / 7;
+		  background-image: url("/assets/images/clases-grupales.jpeg");
+		  background-size: cover;
+		  height: 25vh;
+		  width: 100%;
+		}
+	  
+		.servicio4 {
+		  grid-area: 4 / 7 / 10 / 13;
+		  background-image: url("/assets/images/entrenamiento-personalizado.jpeg");
+		  background-size: cover;
+		  height: 25vh;
+		  width: 100%;
+		}
+	  
+		.servicio5 {
+		  grid-area: 13 / 1 / 20 / 7;
+		  background-image: url("/assets/images/equipos-de-entrenamiento.jpeg");
+		  background-size: cover;
+		  height: 25vh;
+		  width: 100%;
+		}
+	  
+		.servicio6 {
+		  grid-area: 10 / 7 / 17 / 13;
+		  background-image: url("/assets/images/programas-de-entrenamiento.jpeg");
+		  background-size: cover;
+		  height: 25vh;
+		  width: 100%;
+		}
+	  
+		.servicio7 {
+		  grid-area: 20 / 1 / 23 / 7;
+		}
+	  
+		.servicio8 {
+		  grid-area: 17 / 7 / 23 / 13;
+		  background-image: url("/assets/images/servicios-de-bienestar.jpeg");
+		  background-size: cover;
+		  height: 25vh;
+		  width: 100%;
+		}
+	  
+		.imagen {
+		  display: none;
+		}
+	  
+	  .titulo-servicio  {
+		  color: yellow;
+		  width: 100%;
+		  justify-content: center;
+		  align-items: center;
+		  font-size: 1.5em;
+		}
+	  }
+	  
 /* ---------- FOOTER ---------- */
 footer ul li i{
     display: inline-flex;
+}
 }
